@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<title>4 Delicious</title>
+  <link rel="icon" href="cup.png" type="image/jpg" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="script.js"></script>
+   </head>
+   <body>  
+   	<header>
+   		<nav>
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+  <a href="index.php">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="product.html">Product</a>
+  <a href="first.html">Order</a>
+  <a href="contact.html">Team</a>
+</div>
+</nav>
+
+<button class="openbtn" onclick="openNav()">=</button>  
+
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">	
+</header>
+ <center><font color=#004d80><h1 style="font-size:8vw;" class="paragraph">Place your order here ! </h1></font></center><br><br>
+<div class="container">
+    <div class="row">
+       <div class="hello">
+    <center><font color="white"><h1 style="font-size:5vw" class="para2">Details about yourself</h1></font></center></div>
+   	<form action="kirakuih.php" method="POST">
+   		<center><table>
+   			<tr>
+   				 <div class="col-25">
+   				<td><label for="fname">Name</label></td>
+   				<td> : </td>
+   			</div>
+   				<div class="col-75">
+   				<td><input type="text" id="fname" name="nama" placeholder="Your name.."> <br></td>
+   			</div>
+   			</tr>
+   			<tr>
+   				<div class="col-25">
+   				<td>Phone Number</td>
+   				<td> : </td>
+   			</div>
+                <div class="col-75">
+   				<td><input type="text" id="lname" name="nomborfon" placeholder="Your phone number.."> <br></td>
+   			</div>
+   			</tr>
+   			<tr>
+   				<td>Date for today</td>
+   				<td> : </td>
+   				<td><input type="date" name="tarikh"> <br></td>
+   			</tr>
+   			<tr>
+   				 <div class="row">
+                 <div class="col-25">
+   				<td>Address</td>
+   				<td> : </td>
+   			</div>
+   				<td><input type="text" name="alamat" placeholder="Your home address.."> <br><br></td>
+   			</tr>
+   		</table></center>
+   		<br><br><br>
+       <div class="hello">
+		 <center><font color="white"><h1 style="font-size:5vw;" class="para2">We sell 4 types of kuih raya ! </h1></font></center><br><br></div><br><br><br>
+		We have : <br><br> 
+		<table>
+			<tr>
+				<td>A) Semperit</td>
+			</tr>			
+			<tr>				
+				<td>B) Tart Nenas</td>
+			</tr>			
+			<tr>
+				<td>C) Cookies Chocolate Chip</td>
+			</tr>
+			<tr>				
+				<td>D) Cheese Tart</td>
+			</tr>	
+		</table>
+<br>
+All this 4 kuih raya only sell in 2 types which is : <br><br>
+		20 pieces = RM 25 <br>
+		50 pieces = RM 35 <br><br><br>
+    *************************** <br><br>
+		Steps to place your order !<br><br>
+		*************************** <br><br>
+		Please insert how much do you want <br>
+		Insert it like this : <br><br>
+
+		20 pieces : 2 <br>
+		50 pieces : 1 <br><br>	
+		
+		Price     : RM 85 <br><br><br>
+ <div class="hello">
+		<center><font color="white"><h1 style="font-size:5vw" class="para2">ORDER FORM</h1></font></center><br><br></div><br><br><br>
+        <center><font color="red">*Please fill in all fields.</font><br>
+        If you don't want to order that kuih, just insert it 0. Thank you ! <br><br><br><br></center>
+    <center>A) Semperit</center>
+    <br>
+    <center><table>
+      <tr>
+        <td>20 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih1"></td>
+      </tr>
+      <tr>
+        <td>50 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih2"></td>
+      </tr>
+    </table></center>
+    <br><br><br>
+    <center>B) Tart Nenas</center>
+    <br>
+    <center><table>
+       <tr>
+        <td>20 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih3"></td>
+      </tr>
+      <tr>
+        <td>50 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih4"></td>
+      </tr>
+    </table></center>
+    <br><br><br>
+    <center>C) Cookies Chocolate Chip</center>
+    <br>
+    <center><table>
+       <tr>
+        <td>20 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih5"></td>
+      </tr>
+      <tr>
+        <td>50 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih6"></td>
+      </tr>
+    </table></center>
+    <br><br><br>
+    <center>D) Cheese Tart</center>
+    <br>
+    <center><table>
+       <tr>
+        <td>20 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih7"></td>
+      </tr>
+      <tr>
+        <td>50 pieces</td>
+        <td> : </td>
+        <td><input type="number" name="kuih8"></td>
+      </tr>
+    </table></center>
+    <br><br><br>
+    <center><input type="submit" value="ORDER"></center>
+	</form>
+
+</nav>
+<br><br><br><br><br><br>
+	<center><font color="white"><p style="background-color:black" class="paragraph1" >POWERED BY | 4 DELICIOUS<br></center><br></p>
+</body>
+</html>

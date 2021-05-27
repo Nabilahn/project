@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4 Delicious</title>
+<link rel="icon" href="cup.png" type="image/jpg" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+  <a href="index.php">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="product.html">Product</a>
+  <a href="first.html">Order</a>
+  <a href="contact.html">Team</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">=</button>  
+
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+div {text-align: center;}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="bag.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>About Us</h1>
+    <p>4 Delicious ditubuhkan ketika PKP dilaksanakan. Ia bertujuan membantu anda membeli kuih raya untuk yang tersayang seperti ibu bapa di kampung. "PKPP KALI NI NAK BALIK KAMPUNG, TAPI TAK TAHU NAK BAGI APA UNTUK MAK ABAH DI KAMPUNG ???.... ". Jadi, apa kata hadiahkan biskut raya dari 4 Delicious. Mesti mak abah terseyum lebar !</p>
+  </div>
+</div>
+
+</body>
+</html>
